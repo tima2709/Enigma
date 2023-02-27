@@ -1,0 +1,572 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 950px;
+        padding: 0 10px;
+    }
+    .header-container {
+        padding: 30px 70px;
+    }
+    .nav-links a:not(:last-child) {
+        margin-right: 10px;
+    }
+    .section-laslesvpn {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .boy-vpn img{
+        width: 350px;
+    }
+    .lasles-box {
+        width: 380px;
+    }
+   .lasles-box h1 { 
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+    .lasles-box p {
+        padding-bottom: 20px;
+    }
+    .get-started {
+        padding: 1.5px 50.5px;
+    }
+
+    .before-line::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background-color:#EEEFF2;
+        height: 100px;
+        top: -20px;
+        left: -50px;    
+    }
+
+    .before-line::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background-color: #EEEFF2;
+        height: 100px;
+        top: -20px;
+        right: 12px;
+    }
+
+    .provide-many-features {
+        padding-top: 45px;
+        padding-bottom: 40px;        
+    }
+    .provide-img img{
+        width: 450px;
+    }
+    .provide-box{
+        padding-left: 15px;
+    }
+    .you-can-explore h2 {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+    .check-box {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+    .choose-your-plan {
+        padding-top: 40px;
+    }
+
+    .plan-spacing {
+        height: 720px;
+    }
+    .choose-h2-p h2{
+        padding-bottom: 10px;
+        font-weight: 500;
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .choose-h2-p p{
+        padding-bottom: 30px;
+    }
+    .free-img-h3 img {
+        padding-top: 45px;
+        padding-bottom: 30px;
+        gap: 26px;
+    }
+
+    .huge-global {
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    .huge-global-h2 h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .huge-global-p p {
+        padding-bottom: 60px;
+        padding-top: 15px;
+    }
+
+    .huge-global-img img {
+        width: 950px;
+        padding: 0 10px;
+    }
+
+    .Sponsored img {
+        width: 920px;
+        padding-bottom: 10px;
+    }
+
+    .Thousands {
+        padding-bottom: 60px;
+    }
+
+    .Thousands h2 {
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .Thousands p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .comment-box {
+    height: 100%;
+    }
+
+   .left-right {
+    padding: 30px 0;
+    }
+
+    .left-right img {
+    width: 120px;
+    padding-left: 20px;
+    }
+
+    .icon-button button{
+    padding: 15px;
+    border: 2px solid #F53838;
+    border-radius: 44px;
+    }
+    .left{
+    background-color: white;
+    }
+    .right{
+    background-color: #F53838;
+    margin-left: 20px;
+    color: white;
+    size: 10px;
+    }
+
+   .subscribe-now{
+    padding: 30px 30px 50px;
+    box-shadow: 0px 50px 50px 0px #d4d2d2;
+    width: 900px;
+    position: absolute;
+    z-index: 100;   
+
+    }
+
+    .subscribe-now h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #0B132A;
+    width: 320px;
+    }
+
+    .subscribe-col button{
+    padding: 17px 50px;
+    background-color: #F53838;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    }
+
+    .container-footer{
+    max-width: 900px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 150px;
+    margin-top: 70px;
+    background-color: #F8F8F8;
+    padding-bottom: 50px;
+    }
+    .container-footer p{
+    padding: 7px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    }
+    .container-footer h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    }
+    .VPN-lasles{
+    font-weight: bold;
+    font-size: 18px;
+    }
+    .LaslesVPN-footer{
+    width: 320px;
+    }
+    .LaslesVPN-footer img{
+    padding-top: 30px;
+    }
+
+
+
+
+}
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 700px;
+        padding: 0 10px;
+    }
+    .header-container {
+        padding: 20px 30px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    .header-singup {
+        font-size: 16px;
+        text-decoration: none;
+        padding: 8px 30px;
+        color: #F53855;
+        border: 2px solid #F53855;
+        border-radius: 50px;
+    }
+
+    .section-laslesvpn {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .boy-vpn img{
+        width: 300px;
+    }
+    .lasles-box {
+        width: 350px;
+    }
+   .lasles-box h1 { 
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    .lasles-box p {
+        padding-bottom: 15px;
+        line-height: 25px;
+    }
+    .get-started {
+        padding: 1.5px 40.5px;
+    }
+
+    .oboy {
+        padding: 50px 30px;
+        box-shadow: 0px 50px 50px 10px #E5E5E5;
+        background-color: white;
+        width: 650px;
+    }
+
+    .icon h2 {
+        font-size: 18px;
+    }
+    .icon p {
+        font-size: 14px;
+    }
+
+    .icon img {
+        margin-right: 20px;
+        width: 45px;
+    }
+
+    .before-line::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background-color:#EEEFF2;
+        height: 100px;
+        top: -20px;
+        left: -40px;    
+    }
+
+    .before-line::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background-color: #EEEFF2;
+        height: 100px;
+        top: -20px;
+        right: 0px;
+    }
+    
+    .provide-many-features {
+        padding-top: 25px;
+        padding-bottom: 40px;        
+    }
+    .provide-img img{
+        width: 360px;
+    }
+    .provide-box{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    .you-can-explore h2 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .you-can-explore p {
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #4F5665;
+        padding-bottom: 15px;
+    }
+
+    .check-box {
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+    .choose-your-plan {
+        padding-top: 25px;
+    }
+    .choose-h2-p h2{
+        padding-bottom: 10px;
+        font-weight: 500;
+        line-height: 35px;
+        font-size: 30px;
+    }
+
+    .plan-spacing {
+        height: 630px;
+    }
+        
+    .container-footer{
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 186px;
+    margin-top: 105px;
+    background-color: #F8F8F8;
+    }
+    .container-footer p{
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    }
+    .container-footer h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    }
+    .VPN-lasles{
+    font-weight: bold;
+    font-size: 18px;
+    }
+    .LaslesVPN-footer{
+    width: 340px;
+    }
+    .LaslesVPN-footer img{
+    padding-top: 30px;
+    }
+
+    .free-img-h3 img {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        gap: 26px;
+        width: 120px;
+    }
+
+    .col-4 {
+        padding: 0 8px;
+    }
+
+    .free-plan {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .choose-h2-p p{
+        padding-bottom: 30px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .free-img-h3 img {
+        padding-top: 45px;
+        padding-bottom: 30px;
+        gap: 26px;
+    }
+
+    .free-select h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 25px;
+    }
+
+    .free-select a {
+        padding: 13px 40px;
+    }
+
+    .huge-global {
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    .huge-global-h2 h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .huge-global-p p {
+        padding-bottom: 40px;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F5665;
+    }
+
+    .huge-global-img img {
+        width: 700px;
+        padding: 0 10px;
+    }
+    .Sponsored {
+        padding-bottom: 20px;
+    }
+    .Sponsored img {
+        width: 680px;
+    }
+
+    .Thousands {
+        padding-bottom: 40px;
+    }
+
+    .Thousands h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .Thousands p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .comment-box {
+    height: 100%;
+    }
+
+    .comment-box p {
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+   .left-right {
+    padding: 20px 0;
+    }
+    .left-right img {
+        width: 100px;
+    }
+
+    .icon-button button{
+        padding: 10px;
+        border: 2px solid #F53838;
+        border-radius: 44px;
+    }
+
+   .subscribe-now{
+    padding: 25px 25px 40px;
+    box-shadow: 0px 50px 50px 0px #d4d2d2;
+    width: 700px;
+    position: absolute;
+    z-index: 100;
+    }
+
+    .subscribe-now h2{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #0B132A;
+        width: 372px;
+    }
+    .subscribe-now p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #4F5665;
+        position: absolute;
+    }
+
+    .subscribe-col button{
+        padding: 15px 30px;
+        background-color: #F53838;
+        border-radius: 10px;
+        color: white;
+        border: none;        
+    }
+
+    .container-footer{
+        max-width: 700px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        margin-top: 60px;
+        background-color: #F8F8F8;
+    }
+    .container-footer p{
+        padding: 5px 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4F5665;
+    }
+    .container-footer h5{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #0B132A;
+    }
+    .VPN-lasles{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .LaslesVPN-footer{
+        width: 300px;
+    }
+    .LaslesVPN-footer img{
+        padding-top: 20px;
+    }
+
+}
