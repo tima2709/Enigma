@@ -4,17 +4,22 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-body{
-    background-color: #F8F8F8;
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
 }
+
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 150px;
     margin: 0 auto;
-    max-width: 1530px;
     background-color: white;
+    flex-wrap: wrap;
+    padding: 50px 0;
 }
 
 .nav-links a {
@@ -57,11 +62,7 @@ body{
     padding-top: 101px;
 }
 
-.container {
-    max-width: 1240px;
-    margin: 0 auto;
-    width: 100%;
-}
+
 
 .row {
     display: flex;
@@ -89,6 +90,10 @@ h1 {
     line-height: 70px;
     color: #0B132A;
     padding-bottom: 20px;
+}
+
+.boy-vpn img {
+    width: 100%;
 }
 
 .lasles-span {
@@ -121,6 +126,7 @@ h1 {
 
 .icon {
     display: flex;
+    justify-content: flex-start;
 }
 
 .icon img {
@@ -131,15 +137,17 @@ h1 {
     padding-top: 95px;
     padding-bottom: 64px;
     background-color: white;
-    
+}
+
+.provide-img img{
+    width: 100%;
 }
 
 .oboy {
-    padding-top: 120px;
     padding: 67px 91px;
-    max-width: 1140px;
-    box-shadow: 0px 50px 50px 10px #E5E5E5;
+    box-shadow: 0px 50px 50px 15px #E5E5E5;
     background-color: white;
+    position: relative;
 } 
 .before-line {
     position: relative;
@@ -151,7 +159,7 @@ h1 {
     background-color:#EEEFF2;
     height: 126px;
     top: -37px;
-    left: -110px;
+    left: -70px;
 
 }
 .before-line::after {
@@ -161,14 +169,9 @@ h1 {
     background-color: #EEEFF2;
     height: 126px;
     top: -37px;
-    right: 50px;
+    right: 30px;
 }
 
-.check-box {
-    display: flex;
-    align-items: center;
-    gap: 15px
-}
 
 .you-can-explore {
     max-width: 383px;
@@ -178,7 +181,7 @@ h1 {
     font-size: 35px;
     line-height: 50px;
     font-weight: 500;
-    padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .you-can-explore p {
@@ -186,14 +189,18 @@ h1 {
     line-height: 30px;
     font-weight: 400;
     color: #4F5665;
-    padding-bottom: 20px;
+    margin-bottom: 25px;
 }
-
 .check-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+.check-box p {
     font-size: 14px;
     line-height: 30px;
     font-weight: 400;
-    padding-bottom: 15px;
 }
 
 .provide-box {
@@ -202,7 +209,7 @@ h1 {
 
 .choose-your-plan {
     padding-top: 63px;
-    max-width: 1240px;
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
     margin: 0 auto;
 }
 .choose-h2-p{
@@ -222,7 +229,6 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    width: 555px;
     padding-bottom: 60px;
 }
 
@@ -300,6 +306,10 @@ h1 {
     align-items: center;
 }
 
+.huge-global-img img {
+    width: 100%;
+}
+
 .huge-global-h2 h2 {
     font-weight: 500;
     font-size: 35px;
@@ -315,7 +325,6 @@ h1 {
     color: #4F5665;
     padding-bottom: 155px;
     padding-top: 20px;
-    width: 555px;
 }
 
 .huge-global {
@@ -325,6 +334,10 @@ h1 {
 
 .Sponsored {
     padding-bottom: 50px;
+}
+
+.Sponsored img {
+    width: 100%;
 }
 
 .Thousands {
@@ -373,31 +386,47 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 .icon-button button{
-    padding: 20px;
     border: 2px solid #F53838;
-    border-radius: 44px;
-}
-.left{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
     background-color: white;
 }
-.right{
-    background-color: #F53838;
+
+.right {
     margin-left: 20px;
-    color: white;
-    size: 15px;
 }
+
+.left:hover {
+    background-color: #F53838;
+    transition: 0.5s;
+    color: white;
+}
+
+.right:hover {
+    background-color: #F53838;
+    transition: 0.5s;
+}
+.left:hover path{
+    fill: white;
+}
+
+.right:hover path{
+    fill: white;
+}
+
 .subscribe-now{
     padding: 58px 70px;
     box-shadow: 0px 50px 50px 0px #d4d2d2;
-    width: 1140px;
-    position: absolute;
-    z-index: 100;
-    
-
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+    
 .subscribe-now h2{
     font-weight: 500;
     font-size: 35px;
@@ -410,14 +439,8 @@ h1 {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
-    position: absolute;
 }
 
-.div21 {
-    display: flex;
-    justify-content: space-between ;
-    align-items: center;
-}
 .subscribe-col button{
     padding: 17px 65px;
     background-color: #F53838;
@@ -431,8 +454,9 @@ h1 {
     margin: 0 auto;
     justify-content: space-around;
     padding-top: 186px;
-    margin-top: 105px;
+    margin-top: -105px;
     background-color: #F8F8F8;
+    
 }
 .container-footer p{
     padding: 10px 0;
